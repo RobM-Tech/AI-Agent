@@ -11,3 +11,6 @@ wheels/
 .venv/
 .env/
 .env
+
+# Added files not wanted on repo
+lorem.txt
