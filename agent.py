@@ -1,6 +1,6 @@
 import sys
 from gemini_client import client
-from google.genai import types
+from google.genai import types # type: ignore
 
 def run_agent(user_prompt: str):
     if not user_prompt:
